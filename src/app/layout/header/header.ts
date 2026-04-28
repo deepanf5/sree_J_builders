@@ -42,6 +42,13 @@ export class Header implements OnInit {
             }
       },
       {
+        label: 'Services',
+
+        command: () => {
+          this.route.navigate(['/team']);
+        }
+      },
+      {
         label: 'Our Team',
 
         command: () => {
