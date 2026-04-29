@@ -1,5 +1,4 @@
 .header {   
-    padding: 0;
     background-size: cover;      /* Scales the image to fill the screen */
     background-position: top;  /* Centers the image */
     background-attachment: fixed; /* Keeps it from scrolling with the page */
@@ -13,7 +12,8 @@
 // padding for Desktop
 @media screen and (min-width:1024px) {
     .header {
-        padding: 0 2.5rem;
+        padding: 0 3rem;
+        border: 2px solid red;
     }
 }
 
